@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# large single-cell / bioinformatics objects
+*.h5ad
+*.loom
+*.rds
+*.rda
+*.h5
+*.mtx
+*.mtx.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+
+# compressed archives and large local data
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# local data/cache folders
+raw_data/
+processed_objects/
+intermediate/
+cache/
+tmp/
+temp/
+logs/
+
+# Word / EndNote temporary or library files
+~$*.docx
+*.enl
+*.Data/
+
+# local submission drafts
+*_local.docx
+*_backup.docx
