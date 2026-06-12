@@ -1,1 +1,80 @@
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
 
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Python environments
+.env
+.envrc
+.venv/
+env/
+venv/
+ENV/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# large single-cell / bioinformatics objects
+*.h5ad
+*.loom
+*.rds
+*.rda
+*.h5
+*.mtx
+*.mtx.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+
+# compressed archives and large local data
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# local data/cache folders
+raw_data/
+processed_objects/
+intermediate/
+cache/
+tmp/
+temp/
+logs/
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+
+# EndNote library files
+*.enl
+*.Data/
+
+# local submission drafts
+*_local.docx
+*_backup.docx
